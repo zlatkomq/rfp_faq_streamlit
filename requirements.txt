@@ -1,3 +1,5 @@
 streamlit>=1.41.0
 pytest>=7.0.0
 watchdog>=3.0.0  # For better performance with Streamlit 
+requests>=2.31.0  # For making HTTP requests
+xattr>=0.10.1  # For checking macOS quarantine status
