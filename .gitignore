@@ -23,6 +23,7 @@ wheels/
 # Virtual Environment
 venv/
 ENV/
+.env
 
 # IDE
 .idea/
@@ -33,4 +34,15 @@ ENV/
 # Testing
 .coverage
 htmlcov/
-.pytest_cache/ 
+.pytest_cache/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Streamlit
+.streamlit/
+
+# System
+.DS_Store
+Thumbs.db 
